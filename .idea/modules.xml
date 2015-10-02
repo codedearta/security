@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dropwizard/dropwizard.iml" filepath="$PROJECT_DIR$/dropwizard/dropwizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security.iml" filepath="$PROJECT_DIR$/security.iml" />
+    </modules>
+  </component>
+</project>
