@@ -7,11 +7,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dearta.security</groupId>
     <artifactId>security</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>security</name>
+
+    <modules>
+        <module>examples</module>
+        <module>jwt</module>
+        <module>dropwizard</module>
+    </modules>
+
     <description>The dearta security project</description>
     <url>http://code.dearta.com</url>
+
 
     <licenses>
         <license>
@@ -24,10 +32,4 @@
     <scm>
         <url>http://github.com/codedearta/jwt.git</url>
     </scm>
-
-    <modules>
-        <module>examples</module>
-        <module>jwt</module>
-        <module>dropwizard</module>
-    </modules>
 </project>

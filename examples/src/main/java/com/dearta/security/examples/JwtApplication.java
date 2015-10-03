@@ -1,5 +1,8 @@
 package com.dearta.security.examples;
 
+import com.dearta.security.dropwizard.JwtAuthenticator;
+import com.dearta.security.dropwizard.JwtAuthenticatorFactory;
+import com.dearta.security.dropwizard.User;
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.auth.AuthFactory;
@@ -29,9 +32,9 @@ public class JwtApplication extends Application<JwtConfiguration> {
 
     @Override
     public void run(JwtConfiguration configuration, Environment environment) {
-        environment.jersey().register(AuthFactory.binder(new com.dearta.security.examples.JwtAuthenticatorFactory<com.dearta.security.examples.User>(new JwtAuthenticator(configuration.getKey()),
+        environment.jersey().register(AuthFactory.binder(new JwtAuthenticatorFactory<User>(new JwtAuthenticator(configuration.getKey()),
                 this.getName(),
-                com.dearta.security.examples.User.class)));
+                User.class)));
 
         environment.jersey().setUrlPattern("/api/*");
         environment.jersey().register(new AuthResource(configuration));

@@ -1,4 +1,4 @@
-package com.dearta.security.examples;
+package com.dearta.security.dropwizard;
 
 /**
  * Created by sepp on 26.09.15.

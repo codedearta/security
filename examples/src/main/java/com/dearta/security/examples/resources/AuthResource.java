@@ -1,10 +1,10 @@
 package com.dearta.security.examples.resources;
 
 import com.codahale.metrics.annotation.Timed;
+import com.dearta.security.dropwizard.User;
 import com.dearta.security.jwt.JwtToken;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.auth.Auth;
-import com.dearta.security.examples.User;
 import com.dearta.security.examples.configuration.JwtConfiguration;
 
 import javax.servlet.http.HttpServletRequest;

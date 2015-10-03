@@ -1,4 +1,4 @@
-package com.dearta.security.examples;
+package com.dearta.security.dropwizard;
 
 import com.google.common.base.Optional;
 import io.dropwizard.auth.*;

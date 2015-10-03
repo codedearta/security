@@ -1,8 +1,8 @@
 package com.dearta.security.examples.resources;
 
 import com.codahale.metrics.annotation.Timed;
+import com.dearta.security.dropwizard.User;
 import io.dropwizard.auth.Auth;
-import com.dearta.security.examples.User;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
