@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dearta.security</groupId>
     <artifactId>security</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>security</name>
 
@@ -17,9 +17,14 @@
         <module>dropwizard</module>
     </modules>
 
+    <properties>
+        <version>1.0-SNAPSHOT</version>
+        <dropwizard.version>0.8.4</dropwizard.version>
+        <jackson-core.version>2.6.2</jackson-core.version>
+    </properties>
+
     <description>The dearta security project</description>
     <url>http://code.dearta.com</url>
-
 
     <licenses>
         <license>

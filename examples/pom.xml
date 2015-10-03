@@ -7,12 +7,12 @@
     <parent>
         <groupId>com.dearta.security</groupId>
         <artifactId>security</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.dearta.security</groupId>
     <artifactId>examples</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${version}</version>
     <name>examples</name>
     <description>The jwt examples</description>
     <url>http://code.dearta.com</url>
@@ -29,9 +29,10 @@
         <url>http://github.com/codedearta/jwt.git</url>
     </scm>
 
-    <properties>
-        <dropwizard.version>0.8.4</dropwizard.version>
-    </properties>
+    <!--<properties>-->
+        <!--<dropwizard.version>0.8.4</dropwizard.version>-->
+        <!--<jackson-core.version>2.6.2</jackson-core.version>-->
+    <!--</properties>-->
 
     <dependencies>
         <dependency>
@@ -55,15 +56,26 @@
         <dependency>
             <groupId>com.dearta.security</groupId>
             <artifactId>jwt</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.dearta.security</groupId>
             <artifactId>dropwizard</artifactId>
-            <version>0.1-SNAPSHOT</version>
+            <version>${version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-core.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -26,7 +26,7 @@
         <module name="jwt" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="dropwizard" target="1.5" />
       <module name="examples" target="1.5" />
       <module name="jwt" target="1.5" />

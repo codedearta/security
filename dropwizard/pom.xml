@@ -3,22 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>com.dearta.security</groupId>
         <artifactId>security</artifactId>
-        <version>0.1-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
+
     <groupId>com.dearta.security</groupId>
     <artifactId>dropwizard</artifactId>
     <packaging>pom</packaging>
     <name>dropwizard</name>
 
-    <properties>
-        <dropwizard.version>0.8.4</dropwizard.version>
-    </properties>
-
     <dependencies>
-
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
@@ -40,9 +37,7 @@
         <dependency>
             <groupId>com.dearta.security</groupId>
             <artifactId>jwt</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${parent.version}</version>
         </dependency>
-
     </dependencies>
-
 </project>

@@ -20,17 +20,14 @@ public class JwtApplication extends Application<JwtConfiguration> {
         new JwtApplication().run(args);
     }
 
-    @Override
     public String getName() {
         return "Jwt Application";
     }
 
-    @Override
     public void initialize(Bootstrap<JwtConfiguration> bootstrap) {
         bootstrap.addBundle(new AssetsBundle());
     }
 
-    @Override
     public void run(JwtConfiguration configuration, Environment environment) {
         environment.jersey().register(AuthFactory.binder(new JwtAuthenticatorFactory<User>(new JwtAuthenticator(configuration.getKey()),
                 this.getName(),
