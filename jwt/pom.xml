@@ -10,22 +10,7 @@
         <artifactId>security</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.dearta.security</groupId>
     <artifactId>jwt</artifactId>
-    <version>${version}</version>
-    <packaging>jar</packaging>
-    <name>jwt</name>
-    <description>The jwt core library</description>
-    <url>http://code.dearta.com</url>
-
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
 
     <dependencies>
 
@@ -49,8 +34,4 @@
         </dependency>
 
     </dependencies>
-
-    <scm>
-        <url>http://github.com/codedearta/jwt.git</url>
-    </scm>
 </project>
