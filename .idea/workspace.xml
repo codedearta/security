@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c20a38e-f6cf-47be-9598-f81066d875a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/target/classes/com/dearta/security/examples/JwtApplication.class" afterPath="$PROJECT_DIR$/examples/target/classes/com/dearta/security/examples/JwtApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/src/main/java/com/dearta/security/examples/JwtApplication.java" afterPath="$PROJECT_DIR$/examples/src/main/java/com/dearta/security/examples/JwtApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/vendor/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/vendor/jsbn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/vendor/prng4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/vendor/rng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/src/main/resources/assets/js/vendor/rsa.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="security.iws" />
@@ -62,8 +67,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/src/main/resources/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5643204">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.38228154">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -297,10 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,7 +804,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443995306399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="angular added">
+      <created>1443998812269</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1443998812269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -850,7 +857,8 @@
     <MESSAGE value="modularised" />
     <MESSAGE value="licence changed" />
     <MESSAGE value="added js crypto source links" />
-    <option name="LAST_COMMIT_MESSAGE" value="added js crypto source links" />
+    <MESSAGE value="angular added" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1328,8 +1336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/src/main/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5643204">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.38228154">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>
