@@ -25,7 +25,7 @@ public class JwtApplication extends Application<JwtConfiguration> {
     }
 
     public void initialize(Bootstrap<JwtConfiguration> bootstrap) {
-        bootstrap.addBundle(new AssetsBundle());
+        bootstrap.addBundle(new AssetsBundle("/assets/", "/"));
     }
 
     public void run(JwtConfiguration configuration, Environment environment) {
