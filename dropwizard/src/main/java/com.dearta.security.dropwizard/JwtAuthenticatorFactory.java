@@ -5,10 +5,12 @@ import io.dropwizard.auth.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Context;
+import java.util.Arrays;
 
 public final class JwtAuthenticatorFactory<T> extends AuthFactory<String, T> {
     private static final Logger LOGGER = LoggerFactory.getLogger(JwtAuthenticatorFactory.class);
@@ -54,6 +56,11 @@ public final class JwtAuthenticatorFactory<T> extends AuthFactory<String, T> {
 
     public T provide() {
         if(this.request != null) {
+            Cookie[] cookies = this.request.getCookies();
+            Arrays.stream(cookies).filter(cookie -> "ca-auth".equals(cookie.getName())).findFirst().ifPresent(cookie -> {
+                System.out.println(cookie.getValue());
+            });
+
             String header = this.request.getHeader("Authorization");
 
             try {

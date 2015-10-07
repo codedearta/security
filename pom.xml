@@ -15,7 +15,7 @@
         <module>examples</module>
         <module>jwt</module>
         <module>dropwizard</module>
-        <module>webRsa</module>
+        <module>rsa</module>
         <!--<module>webRsa</module>-->
     </modules>
 
