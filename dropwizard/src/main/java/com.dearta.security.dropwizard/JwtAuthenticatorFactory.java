@@ -57,9 +57,9 @@ public final class JwtAuthenticatorFactory<T> extends AuthFactory<String, T> {
     public T provide() {
         if(this.request != null) {
             Cookie[] cookies = this.request.getCookies();
-            Arrays.stream(cookies).filter(cookie -> "ca-auth".equals(cookie.getName())).findFirst().ifPresent(cookie -> {
-                System.out.println(cookie.getValue());
-            });
+//            Arrays.stream(cookies).filter(cookie -> "ca-auth".equals(cookie.getName())).findFirst().ifPresent(cookie -> {
+//                System.out.println(cookie.getValue());
+//            });
 
             String header = this.request.getHeader("Authorization");
 
