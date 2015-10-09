@@ -30,11 +30,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="dropwizard" target="1.8" />
-      <module name="examples" target="1.8" />
-      <module name="jwt" target="1.8" />
-      <module name="rsa" target="1.8" />
-      <module name="security" target="1.8" />
+      <module name="dropwizard" target="1.5" />
+      <module name="examples" target="1.5" />
+      <module name="jwt" target="1.5" />
+      <module name="rsa" target="1.5" />
+      <module name="security" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
