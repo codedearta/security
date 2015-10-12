@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c20a38e-f6cf-47be-9598-f81066d875a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen_key.sh" afterPath="$PROJECT_DIR$/gen_key.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dropwizard/target/classes/com/dearta/security/dropwizard/JwtAuthenticator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dropwizard/target/classes/com/dearta/security/dropwizard/JwtAuthenticatorFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsa/target/test-classes/com/dearta/security/rsa/PemReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dropwizard/target/classes/com/dearta/security/dropwizard/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsa/target/classes/com/dearta/security/rsa/WebRsa.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsa/target/test-classes/com/dearta/security/rsa/WebRsaTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_52.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsa/src/test/java/com/dearta/security/rsa/PemReaderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/vendor/base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/vendor/jsbn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/vendor/prng4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/vendor/rng.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/target/classes/assets/js/vendor/rsa.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="security.iws" />
