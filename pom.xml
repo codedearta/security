@@ -16,6 +16,7 @@
         <module>jwt</module>
         <module>dropwizard</module>
         <module>rsa</module>
+        <module>web</module>
         <!--<module>webRsa</module>-->
     </modules>
 

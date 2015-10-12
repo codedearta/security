@@ -27,6 +27,7 @@
         <module name="jwt" />
         <module name="login" />
         <module name="rsa" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -35,6 +36,7 @@
       <module name="jwt" target="1.5" />
       <module name="rsa" target="1.5" />
       <module name="security" target="1.5" />
+      <module name="web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
